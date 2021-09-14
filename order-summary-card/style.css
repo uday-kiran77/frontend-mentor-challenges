@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background: url("./images/pattern-background-desktop.svg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    font-size: 16px;
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width:450px ;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.container img{
+    object-fit: cover;
+
+}
+.text-content{
+    padding: 7%;
+    text-align: center;
+
+}
+.title{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.text-content p{
+    color:#8a8a8a;
+    margin-bottom: 25px;
+}
+.plan-box{
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 5px 25px;
+    justify-content: space-between;
+}
+.plan-box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.plan-box-left div{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.plan-box-left div h5{
+    font-weight: 900;
+    font-size: 15px;
+    color:hsl(223, 47%, 23%);
+}
+.plan-box-left div p{
+    font-size: 15px;
+    color:#8a8a8a;
+}
+.plan-box a{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 900;
+    color:hsl(245, 75%, 52%);
+    transition:0.1s;
+
+}
+.plan-box a:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    
+}
+a.proceed-btn{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+    transition: 0.2s;
+
+
+}
+a.proceed-btn:hover{
+background-color: hsl(224,23%,55%);
+}
+a.cancel-btn{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+    transition:0.2s;
+
+}
+a.cancel-btn:hover{
+    color:  hsl(223, 47%, 23%);
+    text-decoration: underline;
+}
+.attribution{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+.attribution a{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}.attribution a:hover{
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.attribution a:visited{
+    color: hsl(245, 75%, 52%);
+}
+@media only screen and (max-width:425px){
+    body{
+        background: url(./images/pattern-background-mobile.svg);
+        font-size: 14px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .container{
+        max-width: 87%;
+    }
+    .title{
+        font-size: 23px;
+    }
+    div.plan-box{
+        padding: 0 10px;
+    }
+    .plan-box-left div{
+        margin-left: 10px;
+    }
+    a.proceed-btn{
+        font-size: 13px;
+        margin: 20px 0;
+
+    }
+    a.cancel-btn{
+        font-size: 13px;
+    }
+    .attribution{
+        position: absolute;
+        padding-top: 2000px;
+        bottom: -10px;
+        padding-bottom: 10px;
+        right: 10%;  
+    }
+
+}
