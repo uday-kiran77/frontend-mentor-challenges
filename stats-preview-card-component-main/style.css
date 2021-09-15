@@ -20,7 +20,7 @@ body{
     gap: 0px 0px; 
     grid-template-areas: 
       "left right"; 
-      height: 60vh;
+      height: 400px;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -30,7 +30,7 @@ body{
   }
   .left { 
       grid-area: left;
-      width:500px;
+      width:450px;
       background-color: hsl(244, 38%, 16%);
       padding: 45px 50px;
 
@@ -73,14 +73,13 @@ body{
       background: -webkit-linear-gradient(hsla(277, 72%, 25%, 0.637),hsla(277, 72%, 25%, 0.637)), url(./images/image-header-desktop.jpg);
       background: linear-gradient(hsla(277, 72%, 25%, 0.637),hsla(277, 72%, 25%, 0.637)), url(./images/image-header-desktop.jpg); /* The least supported option. */      background-size: cover;
       background-size: cover;
-      width: 500px;
+      width: 450px;
       background-color: hsl(279, 54%, 5%);
      }
 
 
-@media only screen and (max-width:600px){
-    body{
-    }
+@media only screen and (max-width:900px){
+    
     .main {
         display: grid; 
         grid-auto-columns: 1fr; 
@@ -105,7 +104,8 @@ body{
       }
       .left{
         width: 90vw;
-        padding: 0px 0px;
+        padding: 0px 50px;
+        padding-top: 40px;
     }
     .left h1{
         margin-top: 10px;
@@ -148,7 +148,10 @@ body{
 
     }
       .attribution{
-        display: none;
+        position:static !important;
+        margin-bottom: 12px;
+        width: 100%;
+        font-size: 16px; 
      }
 }
 .attribution{
