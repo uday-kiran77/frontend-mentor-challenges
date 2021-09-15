@@ -43,6 +43,7 @@ body{
 .text-content p{
     color:#8a8a8a;
     margin-bottom: 25px;
+    font-size: 18px;
 }
 .plan-box{
     background-color:hsl(225, 100%, 98%);
@@ -62,11 +63,11 @@ body{
 }
 .plan-box-left div h5{
     font-weight: 900;
-    font-size: 15px;
+    font-size: 18px;
     color:hsl(223, 47%, 23%);
 }
 .plan-box-left div p{
-    font-size: 15px;
+    font-size: 16px;
     color:#8a8a8a;
 }
 .plan-box a{
@@ -75,6 +76,7 @@ body{
     font-weight: 900;
     color:hsl(245, 75%, 52%);
     transition:0.1s;
+    font-size: 18px;
 
 }
 .plan-box a:hover{
@@ -91,7 +93,7 @@ a.proceed-btn{
     border-radius: 12px;
     margin: 30px 0;
     transition: 0.2s;
-
+    font-size: 20px;
 
 }
 a.proceed-btn:hover{
@@ -102,6 +104,7 @@ a.cancel-btn{
     text-decoration: none;
     font-weight: 900;
     transition:0.2s;
+    font-size: 18px;
 
 }
 a.cancel-btn:hover{
@@ -110,8 +113,9 @@ a.cancel-btn:hover{
 }
 .attribution{
     position: absolute;
-    bottom: 0px;
-    right: 5px;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
 }
 .attribution a{
     color: hsl(245, 75%, 52%);
@@ -123,7 +127,7 @@ a.cancel-btn:hover{
 .attribution a:visited{
     color: hsl(245, 75%, 52%);
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:500px){
     body{
         background: url(./images/pattern-background-mobile.svg);
         font-size: 14px;
@@ -135,7 +139,7 @@ a.cancel-btn:hover{
         max-width: 87%;
     }
     .title{
-        font-size: 23px;
+        font-size: 28px;
     }
     div.plan-box{
         padding: 0 10px;
@@ -144,19 +148,13 @@ a.cancel-btn:hover{
         margin-left: 10px;
     }
     a.proceed-btn{
-        font-size: 13px;
+        font-size: 16px;
         margin: 20px 0;
 
     }
     a.cancel-btn{
-        font-size: 13px;
+        font-size: 14px;
     }
-    .attribution{
-        position: absolute;
-        padding-top: 2000px;
-        bottom: -10px;
-        padding-bottom: 10px;
-        right: 10%;  
-    }
+   
 
 }
