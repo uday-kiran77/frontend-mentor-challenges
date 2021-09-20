@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --clr-primary:#59c6b3;
+    --clr-secondary:#232323;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    background-color: #fefefe;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.about{
+    padding: 50px 5%;
+}
+.container{
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+.heading{
+    text-align: center;
+}
+.section-heading{
+    text-transform: uppercase;
+    font-size: 90px;
+    color: var(--clr-secondary);
+}
+.sub-heading{
+    max-width: 76ch;
+    margin: 25px auto 0;
+    line-height: 1.8;
+    font-size: 18px;
+    color: var(--clr-secondary);
+}
+.row-container{
+    margin-top:50px;
+}
+.row{
+    display: flex;
+}
+.row:not(:last-child){
+    margin-bottom: 100px;
+}
+.row div:first-child{
+    margin-top: 50px;
+}
+.row .img-col{
+    flex: 1 1 40%;
+}
+.row .text-col{
+    flex: 1 1 60%;
+}
+.text-col h3{
+    text-transform: uppercase;
+    font-size: 130px;
+    line-height: 0.9;
+    color: var(--clr-primary);
+    margin: 0.4em 0;
+}
+.text-col p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--clr-secondary);
+}
+.img-col.n-margin{
+    margin-top: -20%;
+}
+@media (max-width:1200px){
+    .text-col h3{
+        font-size: 100px;
+    }
+    .section-heading{
+        font-size: 60px;
+    }
+    .row .img-col{
+        flex: 1 1 48%;
+    }
+    .row .text-col{
+        flex: 1 1 52%;
+    }
+}
+@media (max-width:992px){
+    .text-col h3{
+        font-size: 72px;
+    }
+    .text-col p{
+        font-size: 18px;
+    }
+    .sub-heading{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px){
+    .row{
+        flex-direction: column;
+    }
+    .row div:first-child{
+        margin-left: 0;
+    }
+    .row .img-col,
+    .row .text-col{
+        flex: 1;
+    }
+    .row:last-child .text-col{
+        order:2
+    }
+    .row:not(:last-child){
+        margin-bottom: 80px;
+    }
+    .img-col.img-col.n-margin{
+        margin-top: 0;
+    }
+}
+@media (max-width:576px){
+    .text-col h3{
+        font-size: 56px;
+    }
+    .section-heading{
+        font-size: 45px;
+    }
+}
