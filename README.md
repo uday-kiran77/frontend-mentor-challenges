@@ -4,4 +4,4 @@
 - [Profile Card Component](https://uday-kiran77.github.io/frontend-mentor-challenges/profile-card-component/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/profile-card-component)
 - [Stats Preview Card Component](https://uday-kiran77.github.io/frontend-mentor-challenges/stats-preview-card-component-main/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/stats-preview-card-component-main)
 - [3 Column Preview Card Component](https://uday-kiran77.github.io/frontend-mentor-challenges/3-column-preview-card-component-main/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/3-column-preview-card-component-main)
-
+- [Responsive About Section](https://uday-kiran77.github.io/frontend-mentor-challenges/responsive-about-section/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/responsive-about-section)
