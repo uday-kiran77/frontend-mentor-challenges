@@ -8,3 +8,4 @@
 - [Base Apparel Coming Soon Page](https://uday-kiran77.github.io/frontend-mentor-challenges/base-apparel-coming-soon-page) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-page)
 - [Testimonals Grid Section](https://uday-kiran77.github.io/frontend-mentor-challenges/testimonals-grid-section/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/testimonals-grid-section)
 - [Sunnyside Agency Landing Page](https://uday-kiran77.github.io/frontend-mentor-challenges/sunnyside-agency-landing-page/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page)
+- [Intro Component with Signup Form](https://uday-kiran77.github.io/frontend-mentor-challenges/intro-component-with-signup-form/) - [View Code](https://github.com/uday-kiran77/frontend-mentor-challenges/tree/main/intro-component-with-signup-form)
